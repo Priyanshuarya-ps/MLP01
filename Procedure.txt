@@ -6,3 +6,7 @@ https://github.com/Priyanshuarya-ps/MLP01.git
 4. added readme file into git --git add README.md  
 5. commited -- git commit -m "first commit" , git branch -M main , git remote add origin https://github.com/Priyanshuarya-ps/MLP01.git, git push -u origin main
 6. created .gitignore file
+7. created setup.py file
+8. create src folder
+9. creadted __init__.py
+10. installed requirements  -- pip install -r requirements.txt
