@@ -8,5 +8,10 @@ https://github.com/Priyanshuarya-ps/MLP01.git
 6. created .gitignore file
 7. created setup.py file
 8. create src folder
-9. creadted __init__.py
+9. created __init__.py
 10. installed requirements  -- pip install -r requirements.txt
+11. created component folder under src
+12. created init,data ingestion, data transformation,modal trainer under component folder
+13. created pipeline folder under src
+14. created init,predict pipeline, train pipeline file under pipeline folder
+15. created exception, logger, utils file under src 
