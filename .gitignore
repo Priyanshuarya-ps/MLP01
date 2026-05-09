@@ -81,6 +81,8 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+sample.py
+sample.py/
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -158,6 +160,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+sample.py
+sample.py/
 
 # Spyder project settings
 .spyderproject

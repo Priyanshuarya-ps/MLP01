@@ -15,3 +15,8 @@ https://github.com/Priyanshuarya-ps/MLP01.git
 13. created pipeline folder under src
 14. created init,predict pipeline, train pipeline file under pipeline folder
 15. created exception, logger, utils file under src 
+16. coding in data ingestion file
+17. coding in data transformation file
+18. coding in predict pipeline file
+19. coding in modal pipeline file
+20. coding in modal trainer

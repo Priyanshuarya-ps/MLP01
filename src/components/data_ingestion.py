@@ -5,6 +5,10 @@ from src.logger import logging
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+import yaml
+
+with open("src/config/config.yaml", "r") as file:
+    config = yaml.safe_load(file)
 
 @dataclass
 class DataIngestionConfig:
@@ -19,7 +23,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered into data ingestion method or component")
         try:
-            df=pd.read_csv('notebook\data\stud.csv')
+            df=pd.read_csv(config['file_path']['df_path'])
             logging.info('Read the data as DataFrame')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
