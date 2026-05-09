@@ -26,8 +26,10 @@ class DataIngestion:
             df=pd.read_csv(config['file_path']['df_path'])
             logging.info('Read the data as DataFrame')
 
+            logging.info('Creating the directory to store the data if not exist')
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
 
+            logging.info('Exporting raw data to csv file')
             df.to_csv(self.ingestion_config.raw_data_path,index=False,header=True)
 
             logging.info('Train - Test split initiated')

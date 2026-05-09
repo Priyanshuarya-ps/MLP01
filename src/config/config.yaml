@@ -1,2 +1,12 @@
 file_path:
   df_path: notebook/data/stud.csv
+
+columns:
+  numerical_columns: ['reading_score', 'writing_score']
+  categorical_columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch','test_preparation_course']
+  target_column: ['math_score']
+
+
+imputer_strategy:
+  numerical_imputer_strategy: median
+  categorical_imputer_strategy: most_frequent
